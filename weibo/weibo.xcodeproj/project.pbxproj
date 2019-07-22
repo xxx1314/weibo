@@ -15,6 +15,7 @@
 		184AE2D922E5646900F15BFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 184AE2D822E5646900F15BFD /* main.m */; };
 		184AE2E322E5646900F15BFD /* weiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184AE2E222E5646900F15BFD /* weiboTests.m */; };
 		184AE2EE22E5646900F15BFD /* weiboUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184AE2ED22E5646900F15BFD /* weiboUITests.m */; };
+		184AE2FD22E57EA700F15BFD /* cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 184AE2FC22E57EA700F15BFD /* cat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		184AE2E922E5646900F15BFD /* weiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		184AE2ED22E5646900F15BFD /* weiboUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weiboUITests.m; sourceTree = "<group>"; };
 		184AE2EF22E5646900F15BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184AE2FB22E57EA600F15BFD /* cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cat.h; sourceTree = "<group>"; };
+		184AE2FC22E57EA700F15BFD /* cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				184AE2D422E5646900F15BFD /* LaunchScreen.storyboard */,
 				184AE2D722E5646900F15BFD /* Info.plist */,
 				184AE2D822E5646900F15BFD /* main.m */,
+				184AE2FB22E57EA600F15BFD /* cat.h */,
+				184AE2FC22E57EA700F15BFD /* cat.m */,
 			);
 			path = weibo;
 			sourceTree = "<group>";
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184AE2FD22E57EA700F15BFD /* cat.m in Sources */,
 				184AE2CE22E5645D00F15BFD /* ViewController.m in Sources */,
 				184AE2D922E5646900F15BFD /* main.m in Sources */,
 				184AE2CB22E5645D00F15BFD /* AppDelegate.m in Sources */,
